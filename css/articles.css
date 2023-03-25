@@ -1,14 +1,32 @@
-.articles {
-  position: relative;
-}
-.article_asIF {
+.featured-section {
+  background-color: #f7f7f7;
+  padding: 50px;
   position: absolute;
-  left: 20vw;
-  top: 30vh;
-  /* width: 100%; */
+  top: 10rem;
+  left: 10rem;
+  width: 140rem;
+  /* : 20rem; */
 }
-/* .articles-h1{
-    position: absolute;
-    top: 10%;
-    right: 10%;
-} */
+
+.featured-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.featured-item {
+  width: 150rem;
+  height: fit-content;
+  margin-right: 50px;
+}
+
+.featured-item img {
+  width: 20rem;
+  height: auto;
+}
+
+.featured-item h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
