@@ -1,9 +1,9 @@
 nav {
   width: 100vw;
-  background-color: #777f8a;
+  /* background-color: #777f8a; */
   padding: 0 5rem 0 0;
   color: #333;
-  position:fixed;
+  /* position:fixed; */
 }
 nav ul {
   display: flex;
@@ -22,17 +22,31 @@ nav a {
   text-decoration: none;
   font-size: 1.6rem;
 }
+
+.menu-logo{
+  width: 40%;
+}
 /*Abput Section */
 .about-h2{
-    font-size: 4.4rem;
+    font-size: 6.2rem;
     text-align: center;
     padding: 9rem 0 4rem 0;
+    font-family: 'Algeria', sans-serif;
+    color: #780600;                       
     /* margin-top: 5rem; */
 }
 .about-p{
     font-size: 2.4rem;
-    text-align: center;
+    padding: 3rem 3rem 0 3rem;
+    text-align: left;
     margin-bottom: 8rem;
+    
+}
+.twoPPL{
+  width: 38%;
+  position: fixed;
+  right: 10%;
+  top: 59%;
 }
 /* Slideshow container */
 .slideshow-container {

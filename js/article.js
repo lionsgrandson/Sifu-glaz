@@ -29,14 +29,15 @@ const featuredItems = [
     pdf: "article/GENDER differences in instructional leadership how male and female principals perform their instructional leadership role.pdf",
   },
   {
-    image: "img/Israeli and US flag side by side.jpg",
+    image: "img/Israeli and US flag side by side (Medium).png",
     title:
       "Instructional leadership practices among principals in Israeli and US Jewish school",
     pdf: "article/InstrlLdrspIJEF.pdf",
   },
   {
     image: "img/planet Venus and the planet Mars.png",
-    title: "Between Venus and Mars: Sources of gender differences in instructional leadership",
+    title:
+      "Between Venus and Mars: Sources of gender differences in instructional leadership",
     pdf: "article/VENUSfulltext.pdf",
   },
 ];
