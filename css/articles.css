@@ -1,13 +1,15 @@
 .featured-section {
-  background-color: #f7f7f7;
   padding: 50px;
-  position: absolute;
+  /* position: absolute; */
   top: 10rem;
   left: 10rem;
   width: 140rem;
   /* : 20rem; */
 }
-
+.featured-section  h2{
+  color: #780600;
+  padding-top: 10rem;
+}
 .featured-carousel {
   display: flex;
   flex-wrap: nowrap;
@@ -24,9 +26,14 @@
 .featured-item img {
   width: 20rem;
   height: auto;
+  filter: grayscale(0.6);
 }
 
 .featured-item h3 {
   font-size: 1.2rem;
   margin-top: 10px;
+}
+.featured-item a {
+  color: #780600;
+  text-decoration: none;
 }

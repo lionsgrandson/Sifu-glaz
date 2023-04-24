@@ -20,7 +20,7 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 
 
@@ -46,10 +46,10 @@ nav a {
     
 }
 .twoPPL{
-  width: 38%;
+  width: 33%;
   position: absolute;
-  right: 10%;
-  top: -1%;
+  right: 4.3%;
+  top: 62%;
 }
 /* Slideshow container */
 .slideshow-container {
